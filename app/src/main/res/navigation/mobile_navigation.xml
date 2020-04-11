@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_menu1">
+
+    <fragment
+        android:id="@+id/nav_menu1"
+        android:name="com.suryoatmojo.cobacodingdrawer.ui.menu1.Menu1Fragment"
+        android:label="Menu 1"
+        tools:layout="@layout/menu1_fragment" />
+
+    <fragment
+        android:id="@+id/nav_menu2"
+        android:name="com.suryoatmojo.cobacodingdrawer.ui.menu2.Menu2Fragment"
+        android:label="Menu 2"
+        tools:layout="@layout/menu2_fragment" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.suryoatmojo.cobacodingdrawer.ui.share.ShareFragment"
+        android:label="Share"
+        tools:layout="@layout/share_fragment" />
+
+
+</navigation>
